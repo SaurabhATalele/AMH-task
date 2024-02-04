@@ -53,7 +53,7 @@ const Home = () => {
       </div>
 
       <div className="flex flex-col items-center">
-        <h1 className="lg:text-[2vw] text-xl font-bold">
+        <h1 className="lg:text-[2rem] text-xl font-bold">
           Our work featured on
         </h1>
         <motion.div
@@ -76,7 +76,7 @@ const Home = () => {
         </motion.div>
       </div>
       <div className="flex flex-col gap-5 items-center max-w-screen">
-        <h1 className="lg:text-[2vw] text-xl font-bold">Our Expertise</h1>
+        <h1 className="text-xl lg:text-[2rem]  font-bold">Our Expertise</h1>
         <p className="  text-sm lg:text-[1.4vw] font-medium">
           Unleashing the Creative Potential of Modern Marketing
         </p>
