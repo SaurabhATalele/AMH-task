@@ -11,7 +11,8 @@ const Home = () => {
           <motion.h1
             initial={{ x: "-100px", opacity: 0 }}
             animate={{ x: "0px", opacity: 1 }}
-            className="lg:text-[3.2rem] lg:leading-10  text-2xl font-bold uppercase"
+            className="text-3xl lg:text-[3rem]  font-bold uppercase"
+            style={{ lineHeight: "3.5rem" }}
           >
             Best <span className="text-primary-red">Marketing </span>
             company
