@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 const Home = () => {
   return (
-    <main className="flex flex-col gap-5 items-center overflow-x-hidden -z-1">
+    <main className="flex flex-col gap-5 items-center overflow-x-hidden -z-10">
       <div className="w-screen min-h-screen items-center flex flex-col lg:flex-row justify-center lg:gap-20 ">
         <div className="lg:w-1/3 p-10 lg:p-0 flex flex-col items-center gap-5">
           <motion.h1
